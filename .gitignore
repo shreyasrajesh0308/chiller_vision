@@ -1,0 +1,5 @@
+# ignore all files in the virtual environment directory 
+project_environment/
+
+# Ignore swap files
+*.swp
