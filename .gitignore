@@ -3,3 +3,6 @@ project_environment/
 
 # Ignore swap files
 *.swp
+
+# Ignore Rmarkdown files
+*.Rmd
