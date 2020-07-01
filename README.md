@@ -28,9 +28,16 @@ The following are steps to be followed to setup the google cloud platform. Note 
 
 ```
 
+export ZONE="us-west1-b"
+export INSTANCE_NAME="my-fastai-instance" 
+# check if the variables have been initialised correctly 
+echo $ZONE
+echo $INSTANCE_NAME
 gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
 
 ```
+
+
 
 6. Once the command is run you should have ssh'd into the host, then open [notebook](localhost:8080/tree) on your browser.
 
