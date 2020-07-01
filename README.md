@@ -35,3 +35,12 @@ gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
 6. Once the command is run you should have ssh'd into the host, then open [notebook](localhost:8080/tree) on your browser.
 
 
+# Using the Jupyter notebook.
+
+1. First checkout the notebook0.pynb that is part of the nb directory in fastai. This runs through the basics of using jupyter notebooks.
+
+2. Next I would recommend watching the [first video](https://course.fast.ai/videos/?lesson=1) of the DL-1 fastai series. This runs through the basics of building a classifier using Resnet.
+
+3. Once you have gone through the video check out colourclassifier.pynb which is the colour classifier I built based entirely on what is discussed in lecture-1.
+
+
