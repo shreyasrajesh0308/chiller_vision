@@ -12,4 +12,26 @@ pip install -r package_requirements.txt
 
 ```
 
+# The Google cloud setup.
+
+The following are steps to be followed to setup the google cloud platform. Note that in order to avail use of GPU one has to register with a credit card but GCP does offer 300$ free credit. For more information click [here](cloud.google.com).
+
+1.Most of the steps followed are similar to the instructions provided by [fastai](https://course.fast.ai/start_gcp.html). Following these instructions one should be able to install the google cloud CLI installed on their local system. Once the CLI is installed and setup the next step is to create an instance. One issue I faced while trying to apt-get the CLI was the issue of package version issues, which is easily solved by deleting the older and unnecessary version of certain packages. A simple google search solves the issue.
+
+2.For our purposes I created an instance called fastai since our initial models will be using the fastai module. This can be done using the create an instance step given in the fastai guide. It is important to note that although they recommend using a preemptible instance I found that this is prone to being shut down without any warnings which can be both annoying and counter productive hence I believe it is better to create just a regular instance.
+
+3. Once the instance is created it should be visible in the [VM instances page](https://console.cloud.google.com/compute/), check to see if the instance is running.
+
+4. The next step is to SSH into the remote host. To do this first use the cloud shell on the instances page, using this you should be able to ssh into the system. Once this is done at the rsa public key of your local system to the authorized keys of the remote host this allows us to SSH into the remote host. After this it should be possible to SSH from the local machine. In case the connection still times it out could be that your ISP blocks the specific port to which we are trying to connect verify this by trying to connect to another server on the same port, if it fails get access to the specific port.
+
+5. You should now be able to SSH into the remote host, the following command should allow access to the jupyter notebook as localhost.
+
+```
+
+gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
+
+```
+
+6. Once the command is run you should have ssh'd into the host, then open [notebook](localhost:8080/tree) on your browser.
+
 
