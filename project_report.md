@@ -25,7 +25,7 @@ This report details the progress in the chiller vision project for NUTY from the
 
 3. But the network did suffer with images that were hindered, for example images like
 
-![Popcorn chicken image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.change.org%2Fphotos%2F3%2Fie%2Fsq%2FBkIeSqNGinVhbuK-800x450-noPad.jpg%3F1532525708&imgrefurl=https%3A%2F%2Fwww.change.org%2Fp%2Fthe-public-bargain-buckets-of-popcorn-chicken-to-be-sold-at-kfc&tbnid=xOOleaakJqvglM&vet=12ahUKEwj5_Jm96LrqAhVm_TgGHS8oC5EQMygLegUIARDfAQ..i&docid=iOin5GD5VJwaaM&w=676&h=380&q=kfc%20popcorn%20chicken%20&ved=2ahUKEwj5_Jm96LrqAhVm_TgGHS8oC5EQMygLegUIARDfAQ)
+![Popcorn chicken image](https://hype.my/wp-content/uploads/2019/04/1-POPCORN-A-la-Carte-e1554090941249.jpg)
 
 were not identified correctly. Hence it is important that we identify what type of images we need to identify and make sure we have training data that takes care of these conditions.
 
