@@ -17,7 +17,7 @@ This report details the progress in the chiller vision project for NUTY from the
 
 2. We created a shapes dataset with colors filled in, we wanted to see using this dataset if we could teach the network to identify colors like 
 
-![yellow circle](https://user-images.githubusercontent.com/41626118/86772370-82695500-c071-11ea-9020-616726713e52.jpeg)
+![shapes](https://user-images.githubusercontent.com/41626118/86778449-01fa2280-c078-11ea-9c73-7e1d61562076.png)
 
 
 3. Training and Validation loss is shown in the image below along with error percentages.
