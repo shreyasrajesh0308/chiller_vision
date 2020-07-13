@@ -50,4 +50,8 @@ gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
 
 3. Once you have gone through the video check out colourclassifier.pynb which is the colour classifier I built based entirely on what is discussed in lecture-1.
 
+# Further use of the repository.
 
+1. Visit project_report this contains the first report that has some basic results after training over toy data and initial nuty data.
+2. Also have a look at the project log to see progress and what the team is currently working on.
+3. All the code that has been used is available on this page, feel free to run the code and experiment!
