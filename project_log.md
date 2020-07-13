@@ -10,3 +10,10 @@ This is a project log containing ideas and discussions between Deva and Shreyas.
 * It is important to remember that our data is slightly **biased towards Dominos boxes since there are 276 cases of such boxes vs 150 and 103 each of the KFC boxes** this results in an imbalanced dataset. This could be the reason why the network finds it easier to identify Dominos boxes simply because it has seen more of them that the others. Hence it is important we try to maintain balance within the classes in the data.
 * Next, we have to come up with a way to formalize and generalize this process, Deva suggested cropping out some part of the image and seeing how well the classifer works.
 * For the next set of incoming data, we should also ask for obscured data embedded in the dataset itself. That is, images with hands picking up the boxes and essentially obscurring the camer ain any way possible.
+
+# July 13th
+
+* Looked at object detection, came to the conclusion that we need Data with a bounding box to train the NN.
+* We have to look at other ways to do counting, have to look at **OpenCV closer which has some contour tracking techniques which we could use**. Also maybe convert everything to grayscale and use that to count the number of images?
+* Replied to Ray's email. (Check NUTY email for details)
+* **Built a systematic cropper**, using the Python Imaging Library (PIL) to crop the image as per our requirments, we can set dimensions as per need. Pushed to the Repo.
