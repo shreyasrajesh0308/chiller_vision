@@ -70,8 +70,23 @@ were not identified correctly. Hence it is important that we identify what type 
 
 8. Finally, all our training is done on python using the [fastai](https://www.fast.ai/) python library which makes use of extensively trained neural networks based on [pytorch](https://pytorch.org/)
 
-# Future steps 
+# Future steps and objectives.
 
-1. Once we are provided with more data pertaining to each class we use this to build our first stage classifier and see how good of a classifier it is.
+1. The model we have could be extended with different classes i.e different object types. But this model performs only single label classification. That is given a single label image as input to the network the NN will make a classification.
 
-2. We would then need to use our saved model on an edge computer for real time classification.
+2. The effectiveness of this NN has to be tested on a test data set which is not shown to us at all during training this is the only way we can truly measure the performance of the neural network.
+
+3. If classification has to be done using a camera inside the chiller and assuming the chiller in each layer will have multiple objects, what we have at the moment is not sufficient.
+
+4. In such cases we will have to perform [object detection](https://en.wikipedia.org/wiki/Object_detection) which requires a dataset with bounding box coordinates as well labels for each object in an image.
+
+5. Generating this dataset is not an easy task but unfortunately there is no way around it. A [paper](https://arxiv.org/pdf/1904.09781.pdf) by Yi et al. discuss a possible use case where the generate bounding boxes for the images while classification but train without any such requirments. 
+
+6. While we could try and work on implementing this paper this is just a research idea this will take time to implement and there is no guarantee that this will work well for our use case.
+
+7. The idea of using some form of eddge detection for the bounding box is also not very viable, the image below shows the output of an image  when we try running an edge detection algorithm.
+
+![edged image](https://user-images.githubusercontent.com/41626118/87909347-b5eeab00-ca85-11ea-9df6-532346fe5c9d.png)
+
+8. We also require the specification of the embedded device we will be working on, in order to continuosly test if the developed model runs well on the edge device.
+
