@@ -1,4 +1,4 @@
-# Update
+# Update from 10/6 to 21/6
 
 1. This is an update after the initial update provided where we showed how the neural network works with toy data and initial NUTY dataset.
 
