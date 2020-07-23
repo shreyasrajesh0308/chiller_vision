@@ -1,4 +1,4 @@
-# Update from 10/6 to 21/6
+# Update from 10/7 to 21/7
 
 1. This is an update after the initial update provided where we showed how the neural network works with toy data and initial NUTY dataset.
 
@@ -53,4 +53,9 @@ Dog
 
 ![edged image](https://user-images.githubusercontent.com/41626118/87909347-b5eeab00-ca85-11ea-9df6-532346fe5c9d.png)
 
-8. We also require the specification of the embedded device we will be working on, in order to continuosly test if the developed model runs well on the edge device.
+
+## Present requirements
+
+1. The most urgent requirment is data corresponding to the use case. If the use case is only single object classification then more classes of single object images. If the requirment is multi object detection then images with multiple objects is required.
+
+2. We also require the specification of the embedded device we will be working on, in order to continuously test if the developed model runs well on the edge device.
