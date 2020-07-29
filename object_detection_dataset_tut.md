@@ -9,7 +9,7 @@ The first step is to collect sufficient amount of data, ideally we would require
 # Splitting the data
 
 The next step would be to split the data into a train, test sets. We use an 90:10 split, hence 90% of our data is used for training and 10% test.
-The git repo consists two scripts that will automate this, one a jupyter notebook and the other a python script which take as input folder names.
+The git repo contains a python script that will automate this.
 
 The scipt takes two inputs
 
