@@ -4,9 +4,10 @@ This is a tutorial to make an object detection dataset from regular images with 
 
 # Collecting data
 
-The first step is to collect sufficient amount of data, ideally we would require the dataset to have equal proportions of each the classes that need to be identified. It is also important that the dataset contains multiple combination of each of the objects, it need not be all possible permutations but a few combinations of each objects is necessary.
+1. The first step is to collect sufficient amount of data, ideally we would require the dataset to have equal proportions of each the classes that need to be identified.
+2. It is also important that the dataset contains multiple combination of each of the objects, it need not be all possible permutations but a few combinations of each objects is necessary.
+3. The dataset should also contain a few obscured images, that is, one objectt slightly obscured by another in the same image.
 
-Say there are n distinct objects in the dataset then we would require an equal number of images in each subset i.e n-1, n-2...1.
 
 A few sample images are shown below.
 
@@ -43,14 +44,12 @@ pip install labelImag
 
 ```
 
-Once installed run the software the GUI will open, point to the directory containing the train and valid datasets.
+1. Once installed run the software the GUI will open, point to the directory containing the train and valid datasets.
 
-Open the train dataset and open start with the first image.
+2. Open the train dataset and open start with the first image.
 
-Click on the PascalVOC button to change to YOLO format.
+3. Use the create \nReactBox to draw a tightly fit box around each object. Enter the correct label name after drawing the box and click save.
 
-Use the create \nReactBox to draw a tightly fit box around each object. Enter the correct label name after drawing the box and click save.
+4. This will each of the bounding boxes as xml files with the same name as the corresponding image.
 
-This will each of the bounding boxes as xml files with the same name as the corresponding image.
-
-Repeat the process for all the images.
+5. Repeat the process for all the images.
