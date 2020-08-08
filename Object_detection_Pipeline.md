@@ -8,7 +8,7 @@ A detailed tutorial can be found [here](https://tensorflow-object-detection-api-
 2. There is no hard and fast rule that gives a measure of the amount of data required, the amount required varies largely with the number of classes
 we have (no of different items). 
 3. If we plan to do multiple object detection, i.e. multiple objects in the same image we require images with multiple objects in them in different combinations.
-4. More on data preparation in the data_prep document.
+4. More on data preparation [here](https://github.com/shreyasrajesh0308/chiller_vision/blob/master/object_detection_dataset_tut.md)
 
 ## Processing the data.
 
