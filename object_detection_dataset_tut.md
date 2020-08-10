@@ -37,7 +37,7 @@ One can use the script if a test set needs to be created.
 
 For this we use the [labelImg](https://github.com/tzutalin/labelImg) package. 
 
-For installation in an Ubuntu based system
+For installation in an Ubuntu based system running **python3**.
 
 ```
 pip install labelImag
@@ -46,9 +46,16 @@ pip install labelImag
 
 1. Once installed run the software the GUI will open, point to the directory containing the train and valid datasets.
 
+```
+labelImg
+
+```
+
 2. Open the train dataset and open start with the first image.
 
-3. Use the create \nReactBox to draw a tightly fit box around each object. Enter the correct label name after drawing the box and click save.
+3. Use the create *\nRectBox* to draw a tightly fit box around each object. Enter the correct label name after drawing the box and click save. The GUI is shown below
+
+![labelImg](https://user-images.githubusercontent.com/41626118/89754590-24111580-dafa-11ea-8970-70dc19430abb.png)
 
 4. This will each of the bounding boxes as xml files with the same name as the corresponding image.
 
