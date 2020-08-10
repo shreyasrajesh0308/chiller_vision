@@ -6,7 +6,7 @@ This is a tutorial to make an object detection dataset from regular images with 
 
 1. The first step is to collect sufficient amount of data, ideally we would require the dataset to have equal proportions of each the classes that need to be identified.
 2. It is also important that the dataset contains multiple combination of each of the objects, it need not be all possible permutations but a few combinations of each objects is necessary.
-3. The dataset should also contain a few obscured images, that is, one objectt slightly obscured by another in the same image.
+3. The dataset should represent all possible use cases, hence we need images that involved objects being obscured, images taken in low light etc.
 
 
 A few sample images are shown below.
@@ -55,7 +55,7 @@ labelImg
 
 3. Use the create *\nRectBox* to draw a tightly fit box around each object in the image. Enter the correct label name after drawing the box and click save. The GUI is shown below
 
-**NOTE** Bounding Box and labels have to be given for all the objects in the image
+**NOTE**: Bounding Box and labels have to be given for all the objects in the image
 
 ![labelImg](https://user-images.githubusercontent.com/41626118/89758823-5d4f8280-db06-11ea-8060-887e24908d05.png)
 
