@@ -53,9 +53,12 @@ labelImg
 
 2. Open the train dataset and open start with the first image.
 
-3. Use the create *\nRectBox* to draw a tightly fit box around each object. Enter the correct label name after drawing the box and click save. The GUI is shown below
+3. Use the create *\nRectBox* to draw a tightly fit box around each object in the image. Enter the correct label name after drawing the box and click save. The GUI is shown below
 
-![labelImg](https://user-images.githubusercontent.com/41626118/89754590-24111580-dafa-11ea-8970-70dc19430abb.png)
+**NOTE** Bounding Box and labels have to be given for all the objects in the image
+
+![labelImg](https://user-images.githubusercontent.com/41626118/89758823-5d4f8280-db06-11ea-8060-887e24908d05.png)
+
 
 4. This will each of the bounding boxes as xml files with the same name as the corresponding image.
 
