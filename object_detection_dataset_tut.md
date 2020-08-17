@@ -60,6 +60,5 @@ labelImg
 ![labelImg](https://user-images.githubusercontent.com/41626118/89758823-5d4f8280-db06-11ea-8060-887e24908d05.png)
 
 
-4. This will each of the bounding boxes as xml files with the same name as the corresponding image.
-
-5. Repeat the process for all the images.
+4. This will generate an xml file (with the same name as the corresponding image) for each of the bounding boxes 
+5. Repeat the aforementioned process for each of the the images.
